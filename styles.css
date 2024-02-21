@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f2ebf9;
+}
+
+table {
+    border: 2px;
+    border-collapse: collapse;
+    margin: 20px;
+}
+
+table, th, td {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table, td {
+    border: 1px solid #512888;
+    background-color: white;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #512888;
+    color: white;
+    border: 1px solid black;
+}
+
+#home-button {
+    background-color: #512888; 
+    color: white; 
+    padding: 6px 6px;
+    margin: 6px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#taForm label, #taForm input {
+    margin-bottom: 10px; 
+}
+
+.error-message {
+    display: inline-block;
+    color: white;
+    background-color: red;
+}
+
+.success-message {
+    display: inline-block;
+    color: white;
+    background-color: green;
+}
+
+form label, form input{
+    margin-bottom: 10px;
+}
+
+.form-field {
+    margin-bottom: 10px; 
+}
